@@ -1,10 +1,3 @@
-### How to use this template:
-
-  1. Create a repo using this template, 
-  2. Create your project content using eagle...
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
-  
+Board for potted ring generator module. Mounts in 70mm Tyco Track (MD) inputs power (screw term and barrel jack), output, straps to select frequency,
+optionally add pads for other varieties. The modules are long since MD and data sheets are not available for the PCR-SIN01=V12F00A which I bought oneBay
+some suppliers claim to have them.
