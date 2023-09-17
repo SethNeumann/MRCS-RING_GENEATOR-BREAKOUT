@@ -644,7 +644,7 @@ design rules under a new name.
 </autorouter>
 <elements>
 <element name="J1" library="SPCoast" package="1X08_LOCK" value="" x="36.83" y="58.42" rot="R180"/>
-<element name="CON1" library="SPCoast" package="DCJ0202" value="" x="13.97" y="12.7"/>
+<element name="CON1" library="SPCoast" package="DCJ0202" value="" x="13.97" y="7.62"/>
 <element name="JP1" library="SPCoast" package="1X02_LOCK" value="" x="10.4775" y="46.6725" rot="R270"/>
 <element name="U$1" library="MRCS" package="PCR-SIN01" value="PCR-SIN01" x="45.72" y="20.32" rot="R90"/>
 <element name="U$2" library="MRCSLogoTop" package="MRCSLOGOTOP" value="" x="34.29" y="2.54"/>
@@ -666,7 +666,7 @@ design rules under a new name.
 <attribute name="NAME" x="7.62" y="59.055" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="8.382" y="61.468" size="1.27" layer="21" ratio="15" rot="R180"/>
 </element>
-<element name="U$5" library="MRCS" package="BLACK_MAGIC_RING_GEN" value="BLACK_MAGIC_RING_GEN" x="13.97" y="21.59" smashed="yes"/>
+<element name="U$5" library="MRCS" package="BLACK_MAGIC_RING_GEN" value="BLACK_MAGIC_RING_GEN" x="13.97" y="21.59"/>
 </elements>
 <signals>
 <signal name="GND">
