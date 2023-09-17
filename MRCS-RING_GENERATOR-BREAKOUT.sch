@@ -2159,16 +2159,12 @@ Rng Gen</text>
 <text x="240.03" y="12.7" size="2.1844" layer="97">1.3</text>
 <text x="241.3" y="6.35" size="2.1844" layer="97">A</text>
 <text x="166.37" y="6.35" size="2.1844" layer="97">Seth Neumann</text>
-<text x="5.08" y="7.62" size="1.778" layer="97">F connections for PCR SIN06
+<text x="5.08" y="7.62" size="1.778" layer="97">F connections for PCR SIN01
 FO F1
-0  0  20Hz
-0  1  25 Hz 
-1  0  17 Hz
-1  1   50 Hz
-0 = OPEN
-1 = JMP to 5VREF
-doesn't seem to work for SIN01, F0-F1 sit near ground
-and pulling up to 5 or 12 doesn't change freq or Vout</text>
+0  0  25 Hz 
+0  1  17 Hz
+
+1 = JMP to 5VREF</text>
 <text x="129.54" y="157.48" size="1.778" layer="91">F1     F0</text>
 <text x="91.44" y="124.46" size="1.778" layer="91">pads for 0.1", 
 0.2" use 1</text>
