@@ -2038,10 +2038,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="33.02" y1="0" x2="33.02" y2="33.02" width="0.000128125" layer="21"/>
 <wire x1="33.02" y1="33.02" x2="0" y2="33.02" width="0.000128125" layer="21"/>
 <wire x1="0" y1="33.02" x2="0" y2="0" width="0.000128125" layer="21"/>
-<pad name="P$1" x="9.017" y="29.21" drill="1" shape="square"/>
-<pad name="P$2" x="24.257" y="29.21" drill="1" shape="square"/>
-<pad name="P$3" x="28.829" y="3.556" drill="1" shape="square"/>
-<pad name="P$4" x="3.556" y="3.556" drill="1" shape="square"/>
+<pad name="P$1" x="9.017" y="29.21" drill="1.2" shape="square"/>
+<pad name="P$2" x="24.257" y="29.21" drill="1.2" shape="square"/>
+<pad name="P$3" x="28.829" y="3.556" drill="1.2" shape="square"/>
+<pad name="P$4" x="3.556" y="3.556" drill="1.2" shape="square"/>
 <text x="11.43" y="13.97" size="1.778" layer="21">BLK MGC
 RING GEN</text>
 <text x="7.62" y="25.4" size="1.778" layer="21">~1</text>
@@ -2152,11 +2152,12 @@ Rng Gen</text>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="U$5" library="MRCS" deviceset="BLACK_MAGIC_RING_GEN" device=""/>
 <part name="GND3" library="SPCoast" deviceset="GND" device=""/>
+<part name="JP2" library="SPCoast" deviceset="JUMPER-2" device="PTH_LOCK"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="240.03" y="12.7" size="2.1844" layer="97">1.3</text>
+<text x="240.03" y="12.7" size="2.1844" layer="97">1.4</text>
 <text x="241.3" y="6.35" size="2.1844" layer="97">A</text>
 <text x="166.37" y="6.35" size="2.1844" layer="97">Seth Neumann</text>
 <text x="5.08" y="7.62" size="1.778" layer="97">F connections for PCR SIN01
@@ -2214,6 +2215,7 @@ Black Magic does not have INH</text>
 <instance part="SUPPLY4" gate="G$1" x="93.98" y="111.76"/>
 <instance part="U$5" gate="G$1" x="203.2" y="146.05" rot="R180"/>
 <instance part="GND3" gate="1" x="224.79" y="133.35"/>
+<instance part="JP2" gate="A" x="165.1" y="109.22" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2380,6 +2382,16 @@ Black Magic does not have INH</text>
 <junction x="111.76" y="109.22"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="66.04" y1="139.7" x2="86.36" y2="139.7" width="0.3048" layer="91"/>
+<wire x1="111.76" y1="119.38" x2="162.56" y2="119.38" width="0.3048" layer="91"/>
+<wire x1="162.56" y1="119.38" x2="162.56" y2="114.3" width="0.3048" layer="91"/>
+<wire x1="162.56" y1="114.3" x2="165.1" y2="114.3" width="0.3048" layer="91"/>
+<junction x="111.76" y="119.38"/>
+<junction x="162.56" y="119.38"/>
+<wire x1="165.1" y1="114.3" x2="165.1" y2="111.76" width="0.3048" layer="91"/>
+<wire x1="162.56" y1="114.3" x2="162.56" y2="111.76" width="0.3048" layer="91"/>
+<junction x="162.56" y="114.3"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<pinref part="JP2" gate="A" pin="2"/>
 </segment>
 </net>
 </nets>
